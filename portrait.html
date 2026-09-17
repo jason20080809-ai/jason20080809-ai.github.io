@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>人像｜陳志豪 ・ 消防員攝影師</title>
+  <meta name="description" content="人像攝影 — 同袍、夥伴與陌生人間，最真實的表情與故事。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="flame">&#10022;</span> 陳志豪 <span style="font-weight:400;color:var(--text-muted);font-size:.82rem">FIRE &amp; LENS</span></a>
+      <nav class="nav-links" aria-label="主選單">
+        <a href="index.html">首頁</a>
+        <a href="fire.html">消防紀實</a>
+        <a href="portrait.html">人像</a>
+        <a href="landscape.html">風景</a>
+        <a href="about.html">關於我</a>
+        <a href="contact.html">聯絡</a>
+      </nav>
+      <button class="nav-toggle" aria-label="開啟選單">&#9776;</button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="kicker">Portrait</div>
+      <h1>人像</h1>
+      <p>卸下裝備的同袍、難得放假的朋友、或是路邊讓我停下的一位陌生人。人像，是我理解「人」的方式。</p>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">全部</button>
+        <button class="filter-btn" data-filter="teammate">同袍</button>
+        <button class="filter-btn" data-filter="citizen">市民</button>
+        <button class="filter-btn" data-filter="environmental">環境人像</button>
+      </div>
+
+      <div class="gallery">
+        <a class="filter-item" data-cat="teammate" data-lightbox data-cap="值勤後的同袍 — 三號車" href="#">
+          <img src="https://picsum.photos/seed/p1/800/600" alt="值勤後的同袍">
+          <span class="cap">值勤後的同袍 — 三號車</span>
+        </a>
+        <a class="filter-item" data-cat="citizen" data-lightbox data-cap="市場裡的阿姨" href="#">
+          <img src="https://picsum.photos/seed/p2/800/600" alt="市場裡的阿姨">
+          <span class="cap">市場裡的阿姨</span>
+        </a>
+        <a class="filter-item" data-cat="teammate" data-lightbox data-cap="換班 — 疲憊但微笑" href="#">
+          <img src="https://picsum.photos/seed/p3/800/600" alt="換班">
+          <span class="cap">換班 — 疲憊但微笑</span>
+        </a>
+        <a class="filter-item" data-cat="environmental" data-lightbox data-cap="分隊大樓下的黃昏" href="#">
+          <img src="https://picsum.photos/seed/p4/800/600" alt="分隊大樓下的黃昏">
+          <span class="cap">分隊大樓下的黃昏</span>
+        </a>
+        <a class="filter-item" data-cat="citizen" data-lightbox data-cap="早餐店老闆的早晨" href="#">
+          <img src="https://picsum.photos/seed/p5/800/600" alt="早餐店老闆">
+          <span class="cap">早餐店老闆的早晨</span>
+        </a>
+        <a class="filter-item" data-cat="teammate" data-lightbox data-cap="新訓結訓 — 菜鳥弟兄" href="#">
+          <img src="https://picsum.photos/seed/p6/800/600" alt="新訓結訓">
+          <span class="cap">新訓結訓 — 菜鳥弟兄</span>
+        </a>
+        <a class="filter-item" data-cat="environmental" data-lightbox data-cap="消防車庫的光影" href="#">
+          <img src="https://picsum.photos/seed/p7/800/600" alt="消防車庫的光影">
+          <span class="cap">消防車庫的光影</span>
+        </a>
+        <a class="filter-item" data-cat="citizen" data-lightbox data-cap="夜市收攤的身影" href="#">
+          <img src="https://picsum.photos/seed/p8/800/600" alt="夜市收攤的身影">
+          <span class="cap">夜市收攤的身影</span>
+        </a>
+        <a class="filter-item" data-cat="teammate" data-lightbox data-cap="指揮官的眼神" href="#">
+          <img src="https://picsum.photos/seed/p9/800/600" alt="指揮官的眼神">
+          <span class="cap">指揮官的眼神</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <section class="section cta">
+    <div class="container">
+      <h2>需要一張屬於你的照片？</h2>
+      <p>人像拍攝邀約、個人或家庭紀念照，歡迎來信討論。</p>
+      <a class="btn" href="contact.html">預約拍攝 &#8594;</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; <span data-year="2026"></span> 陳志豪 Fire &amp; Lens</span>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">&#9873;</a>
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Email">&#9993;</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="圖片檢視">
+    <button class="close" aria-label="關閉">&times;</button>
+    <button class="nav-btn prev" aria-label="上一張">&#8249;</button>
+    <img src="" alt="作品大圖">
+    <button class="nav-btn next" aria-label="下一張">&#8250;</button>
+    <div class="cap"></div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

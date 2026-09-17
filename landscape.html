@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>風景｜陳志豪 ・ 消防員攝影師</title>
+  <meta name="description" content="風景攝影 — 值勤路上望見的山、海與晨昏。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="flame">&#10022;</span> 陳志豪 <span style="font-weight:400;color:var(--text-muted);font-size:.82rem">FIRE &amp; LENS</span></a>
+      <nav class="nav-links" aria-label="主選單">
+        <a href="index.html">首頁</a>
+        <a href="fire.html">消防紀實</a>
+        <a href="portrait.html">人像</a>
+        <a href="landscape.html">風景</a>
+        <a href="about.html">關於我</a>
+        <a href="contact.html">聯絡</a>
+      </nav>
+      <button class="nav-toggle" aria-label="開啟選單">&#9776;</button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="kicker">Landscape</div>
+      <h1>風景</h1>
+      <p>救護車出勤途中、值班窗外的晨昏、休假一趟就走的山與海。風景讓我記得，這個世界除了火警，還有光。</p>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">全部</button>
+        <button class="filter-btn" data-filter="mountain">山</button>
+        <button class="filter-btn" data-filter="sea">海</button>
+        <button class="filter-btn" data-filter="sky">晨昏</button>
+      </div>
+
+      <div class="gallery">
+        <a class="filter-item" data-cat="mountain" data-lightbox data-cap="值班窗外的山影" href="#">
+          <img src="https://picsum.photos/seed/l1/800/600" alt="值班窗外的山影">
+          <span class="cap">值班窗外的山影</span>
+        </a>
+        <a class="filter-item" data-cat="sea" data-lightbox data-cap="巡邏海線 — 東北角" href="#">
+          <img src="https://picsum.photos/seed/l2/800/600" alt="東北角海線">
+          <span class="cap">巡邏海線 — 東北角</span>
+        </a>
+        <a class="filter-item" data-cat="sky" data-lightbox data-cap="清晨五點的天空" href="#">
+          <img src="https://picsum.photos/seed/l3/800/600" alt="清晨五點的天空">
+          <span class="cap">清晨五點的天空</span>
+        </a>
+        <a class="filter-item" data-cat="mountain" data-lightbox data-cap="休假一趟 — 溪谷" href="#">
+          <img src="https://picsum.photos/seed/l4/800/600" alt="溪谷">
+          <span class="cap">休假一趟 — 溪谷</span>
+        </a>
+        <a class="filter-item" data-cat="sea" data-lightbox data-cap="黃昏的浪" href="#">
+          <img src="https://picsum.photos/seed/l5/800/600" alt="黃昏的浪">
+          <span class="cap">黃昏的浪</span>
+        </a>
+        <a class="filter-item" data-cat="sky" data-lightbox data-cap="雲隙光 — 火警結束後" href="#">
+          <img src="https://picsum.photos/seed/l6/800/600" alt="雲隙光">
+          <span class="cap">雲隙光 — 火警結束後</span>
+        </a>
+        <a class="filter-item" data-cat="mountain" data-lightbox data-cap="日出的稜線" href="#">
+          <img src="https://picsum.photos/seed/l7/800/600" alt="日出的稜線">
+          <span class="cap">日出的稜線</span>
+        </a>
+        <a class="filter-item" data-cat="sea" data-lightbox data-cap="礁岩與燈塔" href="#">
+          <img src="https://picsum.photos/seed/l8/800/600" alt="礁岩與燈塔">
+          <span class="cap">礁岩與燈塔</span>
+        </a>
+        <a class="filter-item" data-cat="sky" data-lightbox data-cap="收班時的夜空" href="#">
+          <img src="https://picsum.photos/seed/l9/800/600" alt="收班時的夜空">
+          <span class="cap">收班時的夜空</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <section class="section cta">
+    <div class="container">
+      <h2>喜歡這些山海？</h2>
+      <p>風景照片有開放授權販售與上架，歡迎私訊洽詢。</p>
+      <a class="btn" href="contact.html">洽詢授權 &#8594;</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; <span data-year="2026"></span> 陳志豪 Fire &amp; Lens</span>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">&#9873;</a>
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Email">&#9993;</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="圖片檢視">
+    <button class="close" aria-label="關閉">&times;</button>
+    <button class="nav-btn prev" aria-label="上一張">&#8249;</button>
+    <img src="" alt="作品大圖">
+    <button class="nav-btn next" aria-label="下一張">&#8250;</button>
+    <div class="cap"></div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
