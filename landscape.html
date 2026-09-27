@@ -81,6 +81,12 @@
     <div class="cap"></div>
   </div>
 
+  <script>
+    document.querySelectorAll('[data-full] img').forEach((img) => {
+      img.loading = 'lazy';
+      img.src = img.closest('[data-full]').dataset.full.replace('images/2026演習紀錄/', 'images/thumbnails/exercise-2026/');
+    });
+  </script>
   <script src="js/main.js"></script>
 </body>
 </html>
